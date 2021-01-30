@@ -7,8 +7,8 @@ meta:
   keywords: "Jekyll, Pineapple"
 
 project:
-  title: "Red Pineapple"
-  type: "Jekyll"
+  title: "第一次见面"
+  type: "Story"
   url: "https://github.com/arnolds/pineapple"
   logo: "/assets/images/projects/redpineapple/logo.png"
   tech: "HTML, CSS, Boostrap, Sass, JavaScript, jQuery, Jekyll"
@@ -30,7 +30,10 @@ images:
     alt: "Red Pineapple website on a mobile device"
 ---
 <p>Pineapples are delicious tropical fruit. There are more than a hundred varieties of pineapples that grow in varying sizes. The plant is indigenous to South America and is said to originate from the area between southern Brazil and Paraguay.</p>
-11
+<p>11</p>
+<p>11</p>
+<p>11</p>
+<p>11</p>
 11
 111111
 1111
