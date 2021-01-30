@@ -9,7 +9,7 @@
         var hours_count=parseInt(((today.getTime()-first_day.getTime())%86400000)*24/86400000);
         var minutes_count=parseInt(((today.getTime()-first_day.getTime())%86400000)*24%86400000*60/86400000);
         var seconds_count=parseInt(((today.getTime()-first_day.getTime())%86400000)*24%86400000*60%86400000*60/86400000);
-        document.getElementById("myHeader").innerHTML="我们已经在一起： "+days_count+"天"+hours_count+"小时"+minutes_count+"分钟"+seconds_count+"秒";}
+        document.getElementById("myHeader").innerHTML="我们已经在一起： "+days_count+"天"+hours_count+"小时"+minutes_count+"分钟"+seconds_count+"秒"+today;}
 </script>
 
 <!DOCTYPE html>
