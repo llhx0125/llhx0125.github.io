@@ -3,13 +3,13 @@
 <script>
     function s(){
         var today=new Date();
-        var first_day=new Date("2021","1","25","20","0","0","0");
+        var first_day=new Date("2021","0","25","0","0","0","0");
         var d=document.getElementById("myHeader").innerHTML;
         var days_count=parseInt((today.getTime()-first_day.getTime())/86400000);
         var hours_count=parseInt(((today.getTime()-first_day.getTime())%86400000)*24/86400000);
         var minutes_count=parseInt(((today.getTime()-first_day.getTime())%86400000)*24%86400000*60/86400000);
         var seconds_count=parseInt(((today.getTime()-first_day.getTime())%86400000)*24%86400000*60%86400000*60/86400000);
-        document.getElementById("myHeader").innerHTML="我们已经在一起： "+days_count+"天"+hours_count+"小时"+minutes_count+"分钟"+seconds_count+"秒"+today+first_day;}
+        document.getElementById("myHeader").innerHTML="我们已经在一起： "+days_count+"天"+hours_count+"小时"+minutes_count+"分钟"+seconds_count+"秒";}
 </script>
 
 <!DOCTYPE html>
