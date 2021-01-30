@@ -23,17 +23,17 @@
 					{{ page.content }}
 
 				</article>
-				<aside>
+				<article>
 					<ul>
 						{% for image in page.images %}
 
 						<li>
-							<p></p>
-							<img src="{{ image.url | prepend: site.baseurl }}" alt="{{ image.alt }}" />
+							<p>  </p>
+							<img src="{{ image.url | prepend: site.baseurl }}"/>
 						</li>
 						{% endfor %}
 					</ul>
-				</aside>
+				</article>
 			</div>
 		</section>
 		<section class="project-navigation">
