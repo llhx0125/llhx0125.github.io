@@ -2,7 +2,15 @@ html {
 	font-size: 62.5%;
 }
 
-
+body {
+	background: $color-white;
+	color: $color-black;
+	font-family: $font-poppins;
+	font-size: 1.8em;
+	line-height: 1.6;
+	font-weight: 600;
+	-webkit-font-smoothing: antialiased;
+}
 
 h1,
 .h1 {
