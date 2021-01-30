@@ -1,5 +1,17 @@
 ---
 ---
+<script>
+    function s(){
+        var today=new Date();
+        var first_day=new Date("2017","8","20","23","30","0","0");
+        var d=document.getElementById("myHeader").innerHTML;
+        var days_count=parseInt((today.getTime()-first_day.getTime())/86400000);
+        var hours_count=parseInt(((today.getTime()-first_day.getTime())%86400000)*24/86400000);
+        var minutes_count=parseInt(((today.getTime()-first_day.getTime())%86400000)*24%86400000*60/86400000);
+        var seconds_count=parseInt(((today.getTime()-first_day.getTime())%86400000)*24%86400000*60%86400000*60/86400000);
+        document.getElementById("myHeader").innerHTML=days_count+"天"+hours_count+"小时"+minutes_count+"分钟"+seconds_count+"秒";}
+</script>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,13 +20,17 @@
 	<meta name="description" content="{{ site.description }}">
 	<meta name="keywords" content="{{ site.keywords }}">
 	{% include head.html %}
-
 </head>
 <body>
 
 	{% include header.html %}
 	<main class="content">
-
+		<section class="intro2">
+			<div class="container">
+				<blockquote id="myHeader" onclick="s()">这是标题</blockquote>
+				<script>s();</script>
+			</div>
+		</section>
 		<section class="intro">
 			<div class="container">
 				<h2>About us.</h2>
