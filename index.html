@@ -11,7 +11,9 @@
 
 </head>
 <body>
-		<script>
+
+	{% include header.html %}
+			<script>
     function s(){
         var today=new Date();
         var first_day=new Date("2017","8","20","23","30","0","0");
@@ -25,7 +27,6 @@
 	<blockquote>和小仙贝已经磨合了</blockquote> 
 	<blockquote id="myHeader" onclick="s()">这是标题</blockquote> 
 	<script>s();</script>
-	{% include header.html %}
 	<main class="content">
 		<section class="intro">
 			<div class="container">
