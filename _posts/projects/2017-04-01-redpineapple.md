@@ -8,6 +8,7 @@ meta:
 
 project:
   title: "第一次见面"
+  date: "2021-01-25"
   type: "Story"
   url: "https://github.com/arnolds/pineapple"
   logo: "/assets/images/projects/redpineapple/logo.png"
