@@ -3,7 +3,7 @@
 <script>
     function s(){
         var today=new Date();
-        var first_day=new Date("2021","1","25","0","0","0","0");
+        var first_day=new Date("2021","1","25","20","0","0","0");
         var d=document.getElementById("myHeader").innerHTML;
         var days_count=parseInt((today.getTime()-first_day.getTime())/86400000);
         var hours_count=parseInt(((today.getTime()-first_day.getTime())%86400000)*24/86400000);
