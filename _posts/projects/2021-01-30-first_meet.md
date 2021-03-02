@@ -22,4 +22,5 @@ images:
   - image:
     url: "/assets/images/projects/first_meet/4.jpg"
 ---
-<p>看到的是小仙女</p>
+<p>day1.第一次一起喝奶茶，第一次一起看电影，第一次牵手，第一次相拥，第一次一起海底捞</p>
+<p>day2.第一次亲亲，第一次一起玩剧本杀，第一次一起躺床上看电影</p>
